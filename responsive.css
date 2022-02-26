@@ -1,0 +1,93 @@
+
+@media all and (max-width:992px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    .pricing .pricingTable {
+        width: 60%;
+        margin: 20px auto;
+    }
+    .teamItem img {
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 150px !important;
+    }
+    .navbar-nav {
+        align-items: flex-end;
+    }
+}
+@media all and (max-width:768px) {
+    .container, .container-sm {
+        max-width: 100%;
+        padding: 0 25px;
+    }
+    .navbar-nav {
+        align-items: center;
+    }
+    .heroText.pe-5 {
+        padding: 30px  !important;
+        text-align: center;
+    }
+    .hero .heroImg {
+        text-align: center;
+    }
+    .about .aboutExtra{
+        flex-direction: column-reverse;
+    }
+    .about .aboutImg {
+        text-align: center;
+    }
+    .about .aboutText.ms-5 {
+        text-align: center;
+        margin: 0 !important;
+        padding: 30px;
+    }
+    .teamItem {
+        width: 350px;
+        margin: 130px auto 0;
+    }
+}
+@media all and (max-width:576px) {
+    .heroText.pe-5 {
+        padding: 30px 0  !important;
+        text-align: center;
+    }
+    .about .aboutText.ms-5 {
+        padding: 30px 0;
+    }
+    .pricing .pricingTable {
+        width: 100%;
+    }
+    .contactText {
+        margin-left: 0 !important;
+    }
+}
+@media all and (max-width:400px) {
+    .teamItem {
+        width: 220px;
+    }
+    .service-title h2 {
+        font-size: 20px;
+    }
+    .contactText ul li span {
+        font-size: 16px;
+    }
+    .contactText ul li b {
+        font-size: 14px;
+    }
+    .formDiv {
+        padding: 20px !important;
+    }
+    section.footer {
+        padding: 10px 0 !important;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .pMenu ul li {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+}

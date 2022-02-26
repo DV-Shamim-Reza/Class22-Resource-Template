@@ -1,0 +1,80 @@
+/* HEADER START */
+.customHeader img{
+    width: 90px;
+}
+.customMenu a {
+    padding: 7px 15px !important;
+}
+/* HEADER END */
+
+/* PRICING START */
+.pText span {
+    font-size: 30px;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+}
+.pMenu ul li {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: gray;
+}
+/* PRICING END */
+
+/* TEAM START */
+.teamItem{
+    position: relative;
+    margin-top: 120px;
+}
+.teamItem img {
+    position: absolute;
+    top: -80px;
+    left: 20px;
+}
+.teamItem h3 {
+    margin-top: 60px;
+    font-size: 22px;
+}
+.teamItem h6 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.teamItem p {
+    font-size: 16px;
+}
+/* TEAM END */
+
+/* CONTACT START */
+.formDiv .form-control {
+    padding: 15px;
+}
+.btnDiv button {
+    background: #6279dfc2;
+    color: #fff;
+    border: 2px solid #6279dfc2;
+    padding: 12px 22px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: .5s;
+}
+.btnDiv button:hover{
+    background-color: #fff;
+    color: #6279dfc2;
+}
+.contactText ul li {
+    font-size: 20px;
+    color: #101010;
+    padding: 5px 0;
+}
+/* CONTACT END */
+
+/* FOOTER START */
+.footer{
+    background-color: #04091e;
+}
+.footer p{
+    font-size: 20px;
+}
+/* FOOTER END */
